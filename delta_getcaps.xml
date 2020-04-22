@@ -73,20 +73,18 @@
       <Format>BLANK</Format>
       <Format>JSON</Format>
     </Exception>
-    <ExtendedCapabilities>
-      <Features xmlns="https://github.com/opendatacube/datacube-ows">
-        <Feature>
-          <Name>delta</Name>
-          <Title>Time Difference</Title>
-          <Abstract>Show a single time difference when passed two times</Abstract>
-          <SupportedLayer>
-            <Name>blend_sentinel2_landsat_nbart_daily</Name>
-            <SupportedStyle>NDVI</SupportedStyle>
-            <SupportedStyle>NBR</SupportedStyle>
-          </SupportedLayer>
-        </Feature>
-      </Features>
-    </ExtendedCapabilities>
+    <Features xmlns="https://github.com/opendatacube/datacube-ows">
+      <Feature>
+        <Name>delta</Name>
+        <Title>Time Difference</Title>
+        <Abstract>Show a single time difference when passed two times</Abstract>
+        <SupportedLayer>
+          <Name>blend_sentinel2_landsat_nbart_daily</Name>
+          <SupportedStyle>NDVI</SupportedStyle>
+          <SupportedStyle>NBR</SupportedStyle>
+        </SupportedLayer>
+      </Feature>
+    </Features>
     <Layer>
       <Title>GSKY Web Map Service</Title>
       <Abstract>A compliant implementation of WMS</Abstract>
